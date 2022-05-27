@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="IE=edge">
+    <meta name="viewport" content="HTML, CSS">
+    <meta name="description" content="Formulario web para Mingeso">
+    <title>Formulario Web</title>
+</head>
+<body>
+    <h1>Encuesta dominio de tecnologías</h1>
+    <form>
+        <span>Nombre:</span>
+        <br/>
+        <input type="text" id="Nombre" name="Nombre" value="Italo">
+        <br/>
+        <span>Apellidos:</span>
+        <br/>
+        <input type="text" id="Apellidos" name="Apellidos" value="Huincahue">
+        <br/>
+        <span>País Origen</span>
+        <br/>
+        <select name="select" id="id">
+            <option>Chile</option>
+            <option>Argentina</option>
+            <option>Perú</option>
+        </select>
+        <br/>
+        <br/>
+        <span>Elija las tecnologías Frontend que mejor domina:</span>
+        <br/>
+        <br/>
+        <input type="radio" id="HTML" name="radio"/> HTML
+        <br/>
+        <input type="radio" id="CCS" name="radio"/> CCS
+        <br/>
+        <input type="radio" id="JavaScript" name="radio"/> JavaScript
+        <br/>
+        <br/>
+        <span>Elija las tecnologías Backend que mejor domina:</span>
+        <br/>
+        <br/>
+        <input type="checkbox" id="check1" name="check1"/> NodeJS
+        <br/>
+        <input type="checkbox" id="check2" name="check2"/> Django
+        <br/>
+        <input type="checkbox" id="check3" name="check3"/> Spring Boot
+        <br/>
+        <br/>
+        <input type="submit" id="Enviar" value="Enviar datos" name="Enviar">
+    </form>
+</body>
+</html>
